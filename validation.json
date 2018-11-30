@@ -1,0 +1,26 @@
+db.createCollection("route", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: [ "interface", "mask", "network", "type" ],
+         properties: {
+            interface: {
+               bsonType: "string",
+               description: "must be a string and is required"
+            },
+            mask: {
+               bsonType: "string",
+               description: "must be a string and is required"
+            },
+            network: {
+              bsonType: "string",
+              description: "must be a string and is required"
+            },
+            type: {
+              bsonType: "string",
+              description: "must be a string and is required"
+            },
+         }
+      }
+   }
+})

@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title> RAM SUPERVISER</title>
+
+   <!-- import plugin script -->
+   <script src='static/Chart.min.js'></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+  <h2><center>Ram Usage</center></h2>
+
+
+<div class="row">
+  <div class="column">
+    <h1><center>Charge</center></h1>
+     <!-- bar chart canvas element -->
+     <canvas id="chart" width="500" height="500" ></canvas>
+
+     <script>
+
+        // bar chart data
+        var barData = {
+        labels : [{% for item in labels %}
+                       "{{item}}",
+                   {% endfor %}],
+        datasets : [
+           {
+                 fillColor: "rgba(151,187,205,0.2)",
+                 strokeColor: "rgba(151,187,205,1)",
+                 pointColor: "rgba(151,187,205,1)",
+                 pointStrokeColor: "#fff",
+                 pointHighlightFill: "#fff",
+                 pointHighlightStroke: "rgba(151,187,205,1)",
+                 bezierCurve : false,
+                 data : [{% for item in values %}
+                           {{item}},
+                         {% endfor %}]
+           }]
+        }
+
+         Chart.defaults.global.animationSteps = 50;
+         Chart.defaults.global.tooltipYPadding = 16;
+         Chart.defaults.global.tooltipCornerRadius = 0;
+         Chart.defaults.global.tooltipTitleFontStyle = "normal";
+         Chart.defaults.global.tooltipFillColor = "rgba(0,0,0,0.8)";
+         Chart.defaults.global.animationEasing = "easeOutBounce";
+         Chart.defaults.global.responsive = false;
+         Chart.defaults.global.scaleLineColor = "black";
+         Chart.defaults.global.scaleFontSize = 16;
+
+        // get bar chart canvas
+        var mychart = document.getElementById("chart").getContext("2d");
+
+        steps = 10
+        max={{maximum}}
+        // draw bar chart
+        var LineChartDemo = new Chart(mychart).Line(barData, {
+             scaleOverride: true,
+             scaleSteps: steps,
+             scaleStepWidth: Math.ceil(max/steps),
+             scaleStartValue: 0,
+             scaleShowVerticalLines: true,
+             scaleShowGridLines : true,
+             barShowStroke : true,
+             scaleShowLabels: true,
+             bezierCurve: false,
+
+        });
+     </script>
+  </div>
+  <div class="column">
+    <h1><center>Free</center></h1> <!-- bar chart canvas element -->
+    <canvas id="chart1" width="500" height="500"></canvas>
+    <script>
+
+       // bar chart data
+       var barData1 = {
+       labels : [{% for item in labels1 %}
+                      "{{item}}",
+                  {% endfor %}],
+       datasets : [
+          {
+                fillColor: "rgba(151,187,205,0.2)",
+                strokeColor: "rgba(151,187,205,1)",
+                pointColor: "rgba(151,187,205,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(151,187,205,1)",
+                bezierCurve : false,
+                data : [{% for item in values1 %}
+                          {{item}},
+                        {% endfor %}]
+          }]
+       }
+
+        Chart.defaults.global.animationSteps = 50;
+        Chart.defaults.global.tooltipYPadding = 16;
+        Chart.defaults.global.tooltipCornerRadius = 0;
+        Chart.defaults.global.tooltipTitleFontStyle = "normal";
+        Chart.defaults.global.tooltipFillColor = "rgba(0,0,0,0.8)";
+        Chart.defaults.global.animationEasing = "easeOutBounce";
+        Chart.defaults.global.responsive = false;
+        Chart.defaults.global.scaleLineColor = "black";
+        Chart.defaults.global.scaleFontSize = 16;
+
+       // get bar chart canvas
+       var mychart1 = document.getElementById("chart1").getContext("2d");
+       steps1 = 10
+       max1={{maximum1}}
+       // draw bar chart
+       var LineChartDemo1 = new Chart(mychart1).Line(barData1, {
+            scaleOverride: true,
+            scaleSteps: steps,
+            scaleStepWidth: Math.ceil(max1/steps1),
+            scaleStartValue: 0,
+            scaleShowVerticalLines: true,
+            scaleShowGridLines : true,
+            barShowStroke : true,
+            scaleShowLabels: true,
+            bezierCurve: false,
+
+       });
+    </script>
+  </div>
+</div>
+
+</body>
+</html>

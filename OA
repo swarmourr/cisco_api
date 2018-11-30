@@ -1,0 +1,1193 @@
+-- Logs begin at Tue 2018-11-20 14:07:31 CET, end at Tue 2018-11-20 17:42:24 CET. --
+nov. 20 14:28:32 localhost.localdomain kernel: [0;1;39mmce_notify_irq: 1 callbacks suppressed[0m
+nov. 20 14:28:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:28:47 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542720527.3317] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:29:57 localhost.localdomain kernel: perf: interrupt took too long (3365 > 3296), lowering kernel.perf_event_max_sample_rate to 59250
+nov. 20 14:31:36 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542720696.7932] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:32:20 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542720740.6330] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:32:35 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542720755.2486] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:33:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 14:33:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 14:33:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 14:33:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 14:33:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 14:33:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 14:33:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:36:18 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542720978.9463] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:36:23 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542720983.5868] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:38:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 208222)[0m
+nov. 20 14:38:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 208227)[0m
+nov. 20 14:38:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 223955)[0m
+nov. 20 14:38:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 223955)[0m
+nov. 20 14:38:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 223940)[0m
+nov. 20 14:38:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:38:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 223940)[0m
+nov. 20 14:38:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:38:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 14:38:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 14:38:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 14:38:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 14:38:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 14:38:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 14:39:01 localhost.localdomain CRON[24111]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 20 14:39:01 localhost.localdomain CRON[24112]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+nov. 20 14:39:01 localhost.localdomain CRON[24111]: pam_unix(cron:session): session closed for user root
+nov. 20 14:39:14 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542721154.5227] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:41:35 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542721295.0829] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:43:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 14:43:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 14:43:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 14:43:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 14:43:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 14:43:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 14:43:32 localhost.localdomain kernel: [0;1;39mmce_notify_irq: 1 callbacks suppressed[0m
+nov. 20 14:43:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:44:54 localhost.localdomain dnsmasq-dhcp[3667]: DHCPREQUEST(virbr0) 192.168.122.252 c4:01:5f:1c:00:00
+nov. 20 14:44:54 localhost.localdomain dnsmasq-dhcp[3667]: DHCPACK(virbr0) 192.168.122.252 c4:01:5f:1c:00:00 R1
+nov. 20 14:45:28 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542721528.9265] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:46:11 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542721571.0559] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:46:15 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542721575.7073] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:48:29 localhost.localdomain kernel: perf: interrupt took too long (4208 > 4206), lowering kernel.perf_event_max_sample_rate to 47500
+nov. 20 14:48:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 323003)[0m
+nov. 20 14:48:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 323004)[0m
+nov. 20 14:48:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 343404)[0m
+nov. 20 14:48:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 343404)[0m
+nov. 20 14:48:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 343378)[0m
+nov. 20 14:48:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:48:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 343375)[0m
+nov. 20 14:48:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:48:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 14:48:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 14:49:38 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542721778.6769] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:53:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 14:53:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 14:53:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 14:53:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 14:53:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 378457)[0m
+nov. 20 14:53:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 378465)[0m
+nov. 20 14:53:32 localhost.localdomain kernel: [0;1;39mmce_notify_irq: 1 callbacks suppressed[0m
+nov. 20 14:53:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:53:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 14:53:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 14:53:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:54:06 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542722046.2980] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:54:10 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542722050.2983] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 14:58:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 457075)[0m
+nov. 20 14:58:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 457103)[0m
+nov. 20 14:58:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 457103)[0m
+nov. 20 14:58:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 457059)[0m
+nov. 20 14:58:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 14:58:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 14:58:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 14:58:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 14:58:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 432600)[0m
+nov. 20 14:58:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 432615)[0m
+nov. 20 14:58:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:58:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 14:58:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 14:58:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 14:59:39 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542722379.0001] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:01:29 localhost.localdomain systemd[1]: Started Run anacron jobs.
+-- Subject: L'unité (unit) anacron.service a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) anacron.service a terminé son démarrage, avec le résultat done.
+nov. 20 15:01:29 localhost.localdomain anacron[6292]: [0;1;39mAnacron 2.3 started on 2018-11-20[0m
+nov. 20 15:01:29 localhost.localdomain anacron[6292]: [0;1;39mNormal exit (0 jobs run)[0m
+nov. 20 15:01:29 localhost.localdomain systemd[1]: anacron.timer: Adding 1min 46.949033s random time.
+nov. 20 15:03:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 514891)[0m
+nov. 20 15:03:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 514908)[0m
+nov. 20 15:03:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 514940)[0m
+nov. 20 15:03:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 514940)[0m
+nov. 20 15:03:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:03:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:03:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:03:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:03:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:03:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:03:32 localhost.localdomain kernel: mce: [Hardware Error]: Machine check events logged
+nov. 20 15:05:53 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542722753.6045] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:08:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:08:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:08:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:08:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:08:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 544608)[0m
+nov. 20 15:08:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 544591)[0m
+nov. 20 15:08:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:08:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:09:01 localhost.localdomain CRON[11079]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 20 15:09:01 localhost.localdomain CRON[11080]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+nov. 20 15:09:01 localhost.localdomain CRON[11079]: pam_unix(cron:session): session closed for user root
+nov. 20 15:09:23 localhost.localdomain kernel: [0;1;31mCPU2: Core temperature above threshold, cpu clock throttled (total events = 40962)[0m
+nov. 20 15:09:23 localhost.localdomain kernel: [0;1;31mCPU3: Core temperature above threshold, cpu clock throttled (total events = 40962)[0m
+nov. 20 15:09:23 localhost.localdomain kernel: CPU3: Core temperature/speed normal
+nov. 20 15:09:23 localhost.localdomain kernel: CPU2: Core temperature/speed normal
+nov. 20 15:12:31 localhost.localdomain dnsmasq-dhcp[3667]: DHCPREQUEST(virbr0) 192.168.122.252 c4:01:5f:1c:00:00
+nov. 20 15:12:31 localhost.localdomain dnsmasq-dhcp[3667]: DHCPACK(virbr0) 192.168.122.252 c4:01:5f:1c:00:00 R1
+nov. 20 15:13:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 601087)[0m
+nov. 20 15:13:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 601106)[0m
+nov. 20 15:13:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 631011)[0m
+nov. 20 15:13:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 631011)[0m
+nov. 20 15:13:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 630973)[0m
+nov. 20 15:13:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 630955)[0m
+nov. 20 15:13:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:13:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:13:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:13:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:13:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:13:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:16:28 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542723388.3058] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:16:31 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542723391.5882] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:17:01 localhost.localdomain CRON[16254]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 20 15:17:01 localhost.localdomain CRON[16255]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+nov. 20 15:17:01 localhost.localdomain CRON[16254]: pam_unix(cron:session): session closed for user root
+nov. 20 15:18:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 657762)[0m
+nov. 20 15:18:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 688306)[0m
+nov. 20 15:18:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 657783)[0m
+nov. 20 15:18:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 688306)[0m
+nov. 20 15:18:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 688267)[0m
+nov. 20 15:18:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 688247)[0m
+nov. 20 15:18:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:18:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:18:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:18:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:18:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:18:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:19:24 localhost.localdomain kernel: [0;1;31mCPU2: Core temperature above threshold, cpu clock throttled (total events = 42918)[0m
+nov. 20 15:19:24 localhost.localdomain kernel: [0;1;31mCPU3: Core temperature above threshold, cpu clock throttled (total events = 42918)[0m
+nov. 20 15:20:12 localhost.localdomain gnome-terminal-[7894]: [0;1;39mAllocating size to GtkScrollbar 0x55d0ce61e270 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?[0m
+nov. 20 15:23:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 713425)[0m
+nov. 20 15:23:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 713447)[0m
+nov. 20 15:23:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 745470)[0m
+nov. 20 15:23:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 745470)[0m
+nov. 20 15:23:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 745425)[0m
+nov. 20 15:23:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 745404)[0m
+nov. 20 15:23:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:23:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:23:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:23:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:23:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:23:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:24:13 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542723853.9416] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:25:54 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542723954.1559] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:26:26 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542723986.9525] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:28:17 localhost.localdomain kernel: perf: interrupt took too long (5343 > 5260), lowering kernel.perf_event_max_sample_rate to 37250
+nov. 20 15:28:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 770066)[0m
+nov. 20 15:28:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 770088)[0m
+nov. 20 15:28:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 803641)[0m
+nov. 20 15:28:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 803641)[0m
+nov. 20 15:28:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 803593)[0m
+nov. 20 15:28:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 803572)[0m
+nov. 20 15:28:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:28:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:28:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:28:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:28:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:28:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:29:40 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542724180.1167] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:31:31 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542724291.3272] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:33:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:33:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:33:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:33:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:33:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:33:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:35:22 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542724522.7822] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:35:27 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542724527.7826] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:35:35 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542724535.5827] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:38:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:38:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:38:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:38:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:38:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:38:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:39:02 localhost.localdomain CRON[30268]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 20 15:39:02 localhost.localdomain CRON[30269]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+nov. 20 15:39:02 localhost.localdomain CRON[30268]: pam_unix(cron:session): session closed for user root
+nov. 20 15:39:57 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542724797.4231] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:40:39 localhost.localdomain dnsmasq-dhcp[3667]: DHCPREQUEST(virbr0) 192.168.122.252 c4:01:5f:1c:00:00
+nov. 20 15:40:39 localhost.localdomain dnsmasq-dhcp[3667]: DHCPACK(virbr0) 192.168.122.252 c4:01:5f:1c:00:00 R1
+nov. 20 15:41:00 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542724860.2829] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:41:37 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542724897.1102] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:41:44 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542724904.2627] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:43:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:43:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:43:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:43:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:43:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:43:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:45:09 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725109.5706] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:45:13 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725113.7608] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:45:18 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725118.0269] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:46:13 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725173.7675] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:47:26 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725246.3083] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:48:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 991957)[0m
+nov. 20 15:48:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 991986)[0m
+nov. 20 15:48:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 1038925)[0m
+nov. 20 15:48:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 1038925)[0m
+nov. 20 15:48:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 1038872)[0m
+nov. 20 15:48:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 1038844)[0m
+nov. 20 15:48:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:48:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:48:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:48:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:48:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:48:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:49:57 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725397.2620] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:50:32 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725432.0056] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:53:28 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725608.3023] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:53:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 1047681)[0m
+nov. 20 15:53:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 1047711)[0m
+nov. 20 15:53:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 1096505)[0m
+nov. 20 15:53:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 1096505)[0m
+nov. 20 15:53:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 1096452)[0m
+nov. 20 15:53:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 1096423)[0m
+nov. 20 15:53:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:53:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:53:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:53:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:53:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 15:53:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:53:35 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725615.5152] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:53:55 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725635.8933] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:55:20 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725720.9897] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:57:04 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725824.6704] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:57:19 localhost.localdomain su[12887]: pam_unix(su:session): session closed for user root
+nov. 20 15:57:44 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725864.1931] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:57:49 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542725869.3077] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 15:58:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 15:58:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 15:58:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 15:58:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 15:58:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 15:58:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:00:50 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542726050.0603] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:01:46 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542726106.6340] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:01:52 localhost.localdomain systemd[1]: Started Run anacron jobs.
+-- Subject: L'unité (unit) anacron.service a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) anacron.service a terminé son démarrage, avec le résultat done.
+nov. 20 16:01:52 localhost.localdomain systemd[1]: anacron.timer: Adding 1min 32.899248s random time.
+nov. 20 16:01:52 localhost.localdomain anacron[13059]: [0;1;39mAnacron 2.3 started on 2018-11-20[0m
+nov. 20 16:01:52 localhost.localdomain anacron[13059]: [0;1;39mNormal exit (0 jobs run)[0m
+nov. 20 16:02:28 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542726148.8487] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:03:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:03:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:03:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:03:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:03:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:03:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:07:42 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542726462.7714] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:08:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:08:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:08:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:08:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:08:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:08:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:08:33 localhost.localdomain dnsmasq-dhcp[3667]: DHCPREQUEST(virbr0) 192.168.122.252 c4:01:5f:1c:00:00
+nov. 20 16:08:33 localhost.localdomain dnsmasq-dhcp[3667]: DHCPACK(virbr0) 192.168.122.252 c4:01:5f:1c:00:00 R1
+nov. 20 16:09:01 localhost.localdomain CRON[17609]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 20 16:09:01 localhost.localdomain CRON[17610]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+nov. 20 16:09:01 localhost.localdomain CRON[17609]: pam_unix(cron:session): session closed for user root
+nov. 20 16:12:49 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542726769.1899] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:12:53 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542726773.6992] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:13:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 1271377)[0m
+nov. 20 16:13:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 1271411)[0m
+nov. 20 16:13:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 1327990)[0m
+nov. 20 16:13:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 1327990)[0m
+nov. 20 16:13:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 1327925)[0m
+nov. 20 16:13:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 1327892)[0m
+nov. 20 16:13:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:13:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:13:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:13:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:13:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:13:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:14:47 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542726887.4153] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:16:56 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727016.2146] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:16:59 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727019.7809] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:17:01 localhost.localdomain CRON[22699]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 20 16:17:01 localhost.localdomain CRON[22700]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+nov. 20 16:17:01 localhost.localdomain CRON[22699]: pam_unix(cron:session): session closed for user root
+nov. 20 16:18:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 1330453)[0m
+nov. 20 16:18:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 1330416)[0m
+nov. 20 16:18:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 1389898)[0m
+nov. 20 16:18:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 1389898)[0m
+nov. 20 16:18:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 1389794)[0m
+nov. 20 16:18:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 1389830)[0m
+nov. 20 16:18:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:18:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:18:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:18:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:18:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:18:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:23:31 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727411.2624] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:23:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:23:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:23:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:23:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:23:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:23:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:23:35 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727415.2518] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:27:36 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727656.0170] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:27:40 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727660.3805] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:28:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 1445853)[0m
+nov. 20 16:28:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 1445810)[0m
+nov. 20 16:28:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 1512485)[0m
+nov. 20 16:28:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 1512485)[0m
+nov. 20 16:28:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 1512365)[0m
+nov. 20 16:28:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 1512407)[0m
+nov. 20 16:28:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:28:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:28:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:28:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:28:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:28:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:30:07 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727807.1816] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:30:48 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727848.1203] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:30:51 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727851.3752] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:32:36 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727956.3088] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:32:41 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727961.1756] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:32:53 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542727973.2809] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:33:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:33:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:33:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:33:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:33:48 localhost.localdomain minissdpd[2782]: [0;1;39m1 new devices added[0m
+nov. 20 16:33:53 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728033.3973] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:33:57 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728037.9902] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:34:05 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728045.5149] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:34:08 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728048.4183] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:35:56 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728156.4547] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:36:23 localhost.localdomain dnsmasq-dhcp[3667]: DHCPREQUEST(virbr0) 192.168.122.252 c4:01:5f:1c:00:00
+nov. 20 16:36:23 localhost.localdomain dnsmasq-dhcp[3667]: DHCPACK(virbr0) 192.168.122.252 c4:01:5f:1c:00:00 R1
+nov. 20 16:38:15 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728295.1440] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:38:19 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728299.9746] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:38:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 1556869)[0m
+nov. 20 16:38:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 1556920)[0m
+nov. 20 16:38:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 1626990)[0m
+nov. 20 16:38:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 1626990)[0m
+nov. 20 16:38:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 1626909)[0m
+nov. 20 16:38:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 1626858)[0m
+nov. 20 16:38:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:38:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:38:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:38:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:38:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:38:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:39:01 localhost.localdomain CRON[4449]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 20 16:39:01 localhost.localdomain CRON[4461]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+nov. 20 16:39:01 localhost.localdomain CRON[4449]: pam_unix(cron:session): session closed for user root
+nov. 20 16:40:02 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728402.7533] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:40:45 localhost.localdomain gnome-terminal-[7894]: [0;1;39mAllocating size to GtkScrollbar 0x55d0ce61e670 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?[0m
+nov. 20 16:42:09 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728529.8447] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:43:01 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728581.0211] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:43:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 1612517)[0m
+nov. 20 16:43:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 1612462)[0m
+nov. 20 16:43:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 1684968)[0m
+nov. 20 16:43:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 1684969)[0m
+nov. 20 16:43:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 1684830)[0m
+nov. 20 16:43:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 1684885)[0m
+nov. 20 16:43:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:43:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:43:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:43:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:43:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:43:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:43:40 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728620.0739] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:46:58 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728818.3324] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:47:02 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728822.1685] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:47:22 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728842.9748] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:48:10 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728890.0857] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:48:13 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728893.9665] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:48:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 1671471)[0m
+nov. 20 16:48:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 1671530)[0m
+nov. 20 16:48:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 1748597)[0m
+nov. 20 16:48:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 1748596)[0m
+nov. 20 16:48:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 1748509)[0m
+nov. 20 16:48:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 1748448)[0m
+nov. 20 16:48:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:48:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:48:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:48:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:48:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:48:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:48:49 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728929.7669] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:48:54 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728934.5665] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:49:49 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542728989.4219] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:53:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:53:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:53:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:53:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:53:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:53:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 16:55:50 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542729350.6815] platform-linux: sysctl: failed to set '/proc/sys/net/ipv6/conf/wlo1/mtu' to '1990': (22) Argument invalide[0m
+nov. 20 16:58:32 localhost.localdomain kernel: [0;1;31mCPU0: Core temperature above threshold, cpu clock throttled (total events = 1787580)[0m
+nov. 20 16:58:32 localhost.localdomain kernel: [0;1;31mCPU1: Core temperature above threshold, cpu clock throttled (total events = 1787514)[0m
+nov. 20 16:58:32 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 1870339)[0m
+nov. 20 16:58:32 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 1870339)[0m
+nov. 20 16:58:32 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 1870169)[0m
+nov. 20 16:58:32 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 1870236)[0m
+nov. 20 16:58:32 localhost.localdomain kernel: CPU0: Core temperature/speed normal
+nov. 20 16:58:32 localhost.localdomain kernel: CPU1: Core temperature/speed normal
+nov. 20 16:58:32 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 16:58:32 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 16:58:32 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 16:58:32 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 17:01:38 localhost.localdomain NetworkManager[514]: <info>  [1542729698.6131] manager: sleep requested (sleeping: no  enabled: yes)
+nov. 20 17:01:38 localhost.localdomain NetworkManager[514]: <info>  [1542729698.6132] manager: sleeping...
+nov. 20 17:01:39 localhost.localdomain systemd[1]: Started Run anacron jobs.
+-- Subject: L'unité (unit) anacron.service a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) anacron.service a terminé son démarrage, avec le résultat done.
+nov. 20 17:01:39 localhost.localdomain NetworkManager[514]: <info>  [1542729699.0410] device (wlo1): state change: activated -> deactivating (reason 'sleeping') [100 110 37]
+nov. 20 17:01:39 localhost.localdomain anacron[19451]: [0;1;39mAnacron 2.3 started on 2018-11-20[0m
+nov. 20 17:01:40 localhost.localdomain anacron[19451]: [0;1;39mNormal exit (0 jobs run)[0m
+nov. 20 17:01:40 localhost.localdomain systemd[1]: anacron.timer: Adding 4min 51.657475s random time.
+nov. 20 17:01:41 localhost.localdomain NetworkManager[514]: <info>  [1542729701.6797] device (wlo1): state change: deactivating -> disconnected (reason 'sleeping') [110 30 37]
+nov. 20 17:01:42 localhost.localdomain NetworkManager[514]: <info>  [1542729702.6709] dhcp4 (wlo1): canceled DHCP transaction, DHCP client pid 794
+nov. 20 17:01:43 localhost.localdomain systemd-logind[474]: [0;1;39mDelay lock is active (UID 0/root, PID 514/NetworkManager) but inhibitor timeout is reached.[0m
+nov. 20 17:01:43 localhost.localdomain NetworkManager[514]: <info>  [1542729703.0509] dhcp4 (wlo1): state changed bound -> done
+nov. 20 17:01:43 localhost.localdomain NetworkManager[514]: <info>  [1542729703.0514] dhcp6 (wlo1): canceled DHCP transaction
+nov. 20 17:01:43 localhost.localdomain systemd[1]: Reached target Sleep.
+-- Subject: L'unité (unit) sleep.target a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) sleep.target a terminé son démarrage, avec le résultat done.
+nov. 20 17:01:44 localhost.localdomain kernel: wlo1: deauthenticating from c4:a3:66:ca:00:8a by local choice (Reason: 3=DEAUTH_LEAVING)
+nov. 20 17:01:43 localhost.localdomain systemd[1]: Starting Suspend...
+-- Subject: L'unité (unit) systemd-suspend.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) systemd-suspend.service a commencé à démarrer.
+nov. 20 17:01:44 localhost.localdomain NetworkManager[514]: <info>  [1542729704.2802] device (wlo1): set-hw-addr: set MAC address to EA:94:60:CA:56:64 (scanning)
+nov. 20 17:01:44 localhost.localdomain systemd-sleep[19507]: Suspending system...
+-- Subject: Le système entre dans l'état de repos (sleep state) suspend
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Le système est maintenant à l'état de repos (sleep state) suspend.
+nov. 20 17:01:44 localhost.localdomain avahi-daemon[515]: Withdrawing address record for fe80::5f2b:3984:f6ce:761e on wlo1.
+nov. 20 17:01:44 localhost.localdomain avahi-daemon[515]: Leaving mDNS multicast group on interface wlo1.IPv6 with address fe80::5f2b:3984:f6ce:761e.
+nov. 20 17:01:45 localhost.localdomain wpa_supplicant[775]: [0;1;39mwlo1: CTRL-EVENT-DISCONNECTED bssid=c4:a3:66:ca:00:8a reason=3 locally_generated=1[0m
+nov. 20 17:01:46 localhost.localdomain kernel: PM: Syncing filesystems ... 
+nov. 20 17:01:46 localhost.localdomain kernel: IPv6: ADDRCONF(NETDEV_UP): wlo1: link is not ready
+nov. 20 17:01:45 localhost.localdomain avahi-daemon[515]: Interface wlo1.IPv6 no longer relevant for mDNS.
+nov. 20 17:01:46 localhost.localdomain avahi-daemon[515]: Withdrawing address record for 192.168.1.37 on wlo1.
+nov. 20 17:01:46 localhost.localdomain avahi-daemon[515]: Leaving mDNS multicast group on interface wlo1.IPv4 with address 192.168.1.37.
+nov. 20 17:01:46 localhost.localdomain avahi-daemon[515]: Interface wlo1.IPv4 no longer relevant for mDNS.
+nov. 20 17:01:46 localhost.localdomain dnsmasq[3667]: reading /etc/resolv.conf
+nov. 20 17:01:46 localhost.localdomain dnsmasq[3667]: using nameserver fe80::1%wlo1#53
+nov. 20 17:01:46 localhost.localdomain dnsmasq[3667]: [0;1;39mno servers found in /etc/resolv.conf, will retry[0m
+nov. 20 17:01:47 localhost.localdomain dbus[480]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'[0m
+nov. 20 17:01:48 localhost.localdomain systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+nov. 20 17:01:48 localhost.localdomain NetworkManager[514]: [0;1;39m<warn>  [1542729708.0954] sup-iface[0x55d7280e8ca0,wlo1]: connection disconnected (reason -3)[0m
+nov. 20 17:01:48 localhost.localdomain NetworkManager[514]: <info>  [1542729708.0956] device (wlo1): supplicant interface state: completed -> disconnected
+nov. 20 17:01:48 localhost.localdomain NetworkManager[514]: [0;1;39m<warn>  [1542729708.5678] sup-iface[0x55d7280e8ca0,wlo1]: connection disconnected (reason -3)[0m
+nov. 20 17:01:48 localhost.localdomain NetworkManager[514]: <info>  [1542729708.5741] device (wlo1): state change: disconnected -> unmanaged (reason 'sleeping') [30 10 37]
+nov. 20 17:01:48 localhost.localdomain NetworkManager[514]: <info>  [1542729708.6761] device (wlo1): set-hw-addr: reset MAC address to 20:10:7A:40:6A:37 (unmanage)
+nov. 20 17:01:52 localhost.localdomain systemd-udevd[19523]: [0;1;39mProcess '/sbin/crda' failed with exit code 249.[0m
+nov. 20 17:01:52 localhost.localdomain systemd-udevd[19523]: [0;1;39mProcess '/sbin/crda' failed with exit code 249.[0m
+nov. 20 17:01:52 localhost.localdomain dbus[480]: [0;1;39m[system] Successfully activated service 'org.freedesktop.nm_dispatcher'[0m
+nov. 20 17:01:52 localhost.localdomain systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+nov. 20 17:01:52 localhost.localdomain nm-dispatcher[19549]: req:1 'down' [wlo1]: new request (1 scripts)
+nov. 20 17:01:52 localhost.localdomain nm-dispatcher[19549]: req:1 'down' [wlo1]: start running ordered scripts...
+nov. 20 17:34:12 localhost.localdomain kernel: [0;1;39mdone.[0m
+nov. 20 17:34:12 localhost.localdomain kernel: PM: Preparing system for sleep (mem)
+nov. 20 17:34:12 localhost.localdomain kernel: Freezing user space processes ... (elapsed 0.472 seconds) done.
+nov. 20 17:34:12 localhost.localdomain kernel: Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+nov. 20 17:34:12 localhost.localdomain kernel: PM: Suspending system (mem)
+nov. 20 17:34:12 localhost.localdomain kernel: [0;1;39mSuspending console(s) (use no_console_suspend to debug)[0m
+nov. 20 17:34:12 localhost.localdomain kernel: [0;1;39msd 0:0:0:0: [sda] Synchronizing SCSI cache[0m
+nov. 20 17:34:15 localhost.localdomain kernel: [0;1;39msd 0:0:0:0: [sda] Stopping disk[0m
+nov. 20 17:34:15 localhost.localdomain kernel: PM: suspend of devices complete after 763.504 msecs
+nov. 20 17:34:15 localhost.localdomain kernel: PM: late suspend of devices complete after 17.666 msecs
+nov. 20 17:34:15 localhost.localdomain kernel: pcieport 0000:00:1c.7: System wakeup enabled by ACPI
+nov. 20 17:34:15 localhost.localdomain kernel: r8169 0000:25:00.0: System wakeup enabled by ACPI
+nov. 20 17:34:15 localhost.localdomain kernel: ehci-pci 0000:00:1d.0: System wakeup enabled by ACPI
+nov. 20 17:34:15 localhost.localdomain kernel: ehci-pci 0000:00:1a.0: System wakeup enabled by ACPI
+nov. 20 17:34:15 localhost.localdomain kernel: PM: noirq suspend of devices complete after 20.373 msecs
+nov. 20 17:34:15 localhost.localdomain kernel: ACPI: Preparing to enter system sleep state S3
+nov. 20 17:34:15 localhost.localdomain kernel: ACPI : EC: event blocked
+nov. 20 17:34:15 localhost.localdomain kernel: ACPI : EC: EC stopped
+nov. 20 17:34:15 localhost.localdomain kernel: PM: Saving platform NVS memory
+nov. 20 17:34:15 localhost.localdomain kernel: Disabling non-boot CPUs ...
+nov. 20 17:34:15 localhost.localdomain kernel: smpboot: CPU 1 is now offline
+nov. 20 17:34:15 localhost.localdomain kernel: smpboot: CPU 2 is now offline
+nov. 20 17:34:15 localhost.localdomain kernel: smpboot: CPU 3 is now offline
+nov. 20 17:34:15 localhost.localdomain kernel: ACPI: Low-level resume complete
+nov. 20 17:34:15 localhost.localdomain kernel: ACPI : EC: EC started
+nov. 20 17:34:15 localhost.localdomain kernel: PM: Restoring platform NVS memory
+nov. 20 17:34:15 localhost.localdomain kernel: Suspended for 1937.568 seconds
+nov. 20 17:34:16 localhost.localdomain kernel: Enabling non-boot CPUs ...
+nov. 20 17:34:16 localhost.localdomain kernel: x86: Booting SMP configuration:
+nov. 20 17:34:16 localhost.localdomain kernel: smpboot: Booting Node 0 Processor 1 APIC 0x1
+nov. 20 17:34:16 localhost.localdomain kernel: [0;1;39m cache: parent cpu1 should not be sleeping[0m
+nov. 20 17:34:16 localhost.localdomain kernel: CPU1 is up
+nov. 20 17:34:16 localhost.localdomain kernel: smpboot: Booting Node 0 Processor 2 APIC 0x2
+nov. 20 17:34:16 localhost.localdomain kernel: [0;1;39m cache: parent cpu2 should not be sleeping[0m
+nov. 20 17:34:16 localhost.localdomain kernel: CPU2 is up
+nov. 20 17:34:16 localhost.localdomain kernel: smpboot: Booting Node 0 Processor 3 APIC 0x3
+nov. 20 17:34:17 localhost.localdomain kernel: [0;1;39m cache: parent cpu3 should not be sleeping[0m
+nov. 20 17:34:17 localhost.localdomain kernel: CPU3 is up
+nov. 20 17:34:17 localhost.localdomain kernel: ACPI: Waking up from system sleep state S3
+nov. 20 17:34:17 localhost.localdomain kernel: ehci-pci 0000:00:1a.0: System wakeup disabled by ACPI
+nov. 20 17:34:17 localhost.localdomain kernel: ehci-pci 0000:00:1d.0: System wakeup disabled by ACPI
+nov. 20 17:34:17 localhost.localdomain kernel: pcieport 0000:00:1c.7: System wakeup disabled by ACPI
+nov. 20 17:34:17 localhost.localdomain kernel: PM: noirq resume of devices complete after 56.692 msecs
+nov. 20 17:34:17 localhost.localdomain kernel: PM: early resume of devices complete after 0.365 msecs
+nov. 20 17:34:17 localhost.localdomain kernel: ACPI : EC: event unblocked
+nov. 20 17:34:17 localhost.localdomain kernel: r8169 0000:25:00.0: System wakeup disabled by ACPI
+nov. 20 17:34:17 localhost.localdomain kernel: [0;1;39msd 0:0:0:0: [sda] Starting disk[0m
+nov. 20 17:34:17 localhost.localdomain kernel: [0;1;39mACPI : button: The lid device is not compliant to SW_LID.[0m
+nov. 20 17:34:17 localhost.localdomain kernel: rtc_cmos 00:03: System wakeup disabled by ACPI
+nov. 20 17:34:17 localhost.localdomain kernel: r8169 0000:25:00.0 enp37s0: link down
+nov. 20 17:34:17 localhost.localdomain kernel: usb 4-1.4: reset high-speed USB device number 3 using ehci-pci
+nov. 20 17:34:17 localhost.localdomain kernel: ata2: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+nov. 20 17:34:17 localhost.localdomain kernel: ata2.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+nov. 20 17:34:17 localhost.localdomain kernel: ata2.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+nov. 20 17:34:17 localhost.localdomain kernel: ata2.00: configured for UDMA/100
+nov. 20 17:34:17 localhost.localdomain kernel: PM: resume of devices complete after 469.109 msecs
+nov. 20 17:34:17 localhost.localdomain kernel: acpi LNXPOWER:02: Turning OFF
+nov. 20 17:34:17 localhost.localdomain kernel: acpi LNXPOWER:01: Turning OFF
+nov. 20 17:34:17 localhost.localdomain kernel: PM: Finishing wakeup.
+nov. 20 17:34:17 localhost.localdomain kernel: Restarting tasks ... 
+nov. 20 17:34:17 localhost.localdomain kernel: [0;1;39macpi PNP0501:00: Still not present[0m
+nov. 20 17:34:17 localhost.localdomain kernel: [0;1;39mdone.[0m
+nov. 20 17:34:17 localhost.localdomain kernel: video LNXVIDEO:00: Restoring backlight state
+nov. 20 17:34:17 localhost.localdomain kernel: psmouse serio4: synaptics: queried max coordinates: x [..5756], y [..4876]
+nov. 20 17:34:17 localhost.localdomain kernel: ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+nov. 20 17:34:17 localhost.localdomain kernel: ata1.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+nov. 20 17:34:17 localhost.localdomain kernel: ata1.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+nov. 20 17:34:17 localhost.localdomain kernel: ata1.00: configured for UDMA/100
+nov. 20 17:34:17 localhost.localdomain kernel: IPv6: ADDRCONF(NETDEV_UP): wlo1: link is not ready
+nov. 20 17:34:17 localhost.localdomain kernel: IPv6: ADDRCONF(NETDEV_UP): wlo1: link is not ready
+nov. 20 17:34:12 localhost.localdomain systemd[1]: Time has been changed
+-- Subject: Changement d'heure
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'horloge système a été modifiée et positionnée à REALTIME microsecondes
+-- après le 1er janvier 1970.
+nov. 20 17:34:13 localhost.localdomain systemd-sleep[19507]: System resumed.
+-- Subject: Le système sorti de l'état de repos (sleep state) suspend
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- Le système est maintenant sorti de l'état de repos (sleep state) suspend.
+nov. 20 17:34:14 localhost.localdomain systemd[1]: apt-daily-upgrade.timer: Adding 26.630584s random time.
+nov. 20 17:34:14 localhost.localdomain systemd[1]: anacron.timer: Adding 3.934083s random time.
+nov. 20 17:34:14 localhost.localdomain systemd[1]: apt-daily.timer: Adding 10h 54min 23.417975s random time.
+nov. 20 17:34:14 localhost.localdomain systemd[1]: Started Suspend.
+-- Subject: L'unité (unit) systemd-suspend.service a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) systemd-suspend.service a terminé son démarrage, avec le résultat done.
+nov. 20 17:34:14 localhost.localdomain systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+nov. 20 17:34:14 localhost.localdomain systemd[1]: Stopped target Sleep.
+-- Subject: L'unité (unit) sleep.target a terminé son arrêt
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) sleep.target a terminé son arrêt.
+nov. 20 17:34:14 localhost.localdomain systemd[1]: Reached target Suspend.
+-- Subject: L'unité (unit) suspend.target a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) suspend.target a terminé son démarrage, avec le résultat done.
+nov. 20 17:34:14 localhost.localdomain systemd[1]: suspend.target: Unit is bound to inactive unit systemd-suspend.service. Stopping, too.
+nov. 20 17:34:14 localhost.localdomain systemd[1]: Stopped target Suspend.
+-- Subject: L'unité (unit) suspend.target a terminé son arrêt
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) suspend.target a terminé son arrêt.
+nov. 20 17:34:14 localhost.localdomain systemd-logind[474]: Operation 'sleep' finished.
+nov. 20 17:34:14 localhost.localdomain NetworkManager[514]: <info>  [1542731654.6962] manager: wake requested (sleeping: yes  enabled: yes)
+nov. 20 17:34:14 localhost.localdomain NetworkManager[514]: <info>  [1542731654.6962] manager: waking up...
+nov. 20 17:34:14 localhost.localdomain NetworkManager[514]: <info>  [1542731654.6963] device (wlo1): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+nov. 20 17:34:14 localhost.localdomain systemd[4010]: Time has been changed
+-- Subject: Changement d'heure
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'horloge système a été modifiée et positionnée à REALTIME microsecondes
+-- après le 1er janvier 1970.
+nov. 20 17:34:15 localhost.localdomain NetworkManager[514]: <info>  [1542731655.1665] device (wlo1): set-hw-addr: set MAC address to CA:F6:B7:7D:C5:B1 (scanning)
+nov. 20 17:34:15 localhost.localdomain NetworkManager[514]: [0;1;39m<warn>  [1542731655.2786] device (wlo1): device not up after timeout![0m
+nov. 20 17:34:18 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:34:18 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:34:18 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:34:18 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:34:19 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:34:19 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:34:19 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542731659.1008] sup-iface[0x55d7281e9c80,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:34:19 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:34:19 localhost.localdomain NetworkManager[514]: <info>  [1542731659.1009] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:34:21 localhost.localdomain ModemManager[478]: <info>  Couldn't check support for device at '/sys/devices/pci0000:00/0000:00:1c.3/0000:24:00.0': not supported by any plugin
+nov. 20 17:34:21 localhost.localdomain ModemManager[478]: <info>  Couldn't check support for device at '/sys/devices/pci0000:00/0000:00:1c.5/0000:25:00.0': not supported by any plugin
+nov. 20 17:34:28 localhost.localdomain NetworkManager[514]: [0;1;39m<warn>  [1542731668.9956] device (wlo1): re-acquiring supplicant interface (#1).[0m
+nov. 20 17:34:29 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:34:29 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:34:29 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:34:29 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:34:29 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:34:29 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542731669.2037] sup-iface[0x55d7281e9c80,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:34:29 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:34:29 localhost.localdomain NetworkManager[514]: <info>  [1542731669.2038] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:34:31 localhost.localdomain cinnamon-screensaver-pam-helper[19778]: gkr-pam: unlocked login keyring
+nov. 20 17:34:38 localhost.localdomain NetworkManager[514]: [0;1;39m<warn>  [1542731678.9941] device (wlo1): re-acquiring supplicant interface (#2).[0m
+nov. 20 17:34:39 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:34:39 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:34:39 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:34:39 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:34:39 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:34:39 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:34:39 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542731679.2011] sup-iface[0x55d7280e8e80,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:34:39 localhost.localdomain NetworkManager[514]: <info>  [1542731679.2012] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:34:48 localhost.localdomain NetworkManager[514]: [0;1;39m<warn>  [1542731688.9941] device (wlo1): re-acquiring supplicant interface (#3).[0m
+nov. 20 17:34:49 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:34:49 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:34:49 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:34:49 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:34:49 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:34:49 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542731689.2015] sup-iface[0x55d7280e8ca0,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:34:49 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:34:49 localhost.localdomain NetworkManager[514]: <info>  [1542731689.2016] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:34:50 localhost.localdomain dnsmasq-dhcp[3667]: DHCPREQUEST(virbr0) 192.168.122.252 c4:01:5f:1c:00:00
+nov. 20 17:34:50 localhost.localdomain dnsmasq-dhcp[3667]: DHCPACK(virbr0) 192.168.122.252 c4:01:5f:1c:00:00 R1
+nov. 20 17:34:58 localhost.localdomain NetworkManager[514]: [0;1;39m<warn>  [1542731698.9943] device (wlo1): re-acquiring supplicant interface (#4).[0m
+nov. 20 17:34:59 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:34:59 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:34:59 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:34:59 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:34:59 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:34:59 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542731699.2040] sup-iface[0x55d7281e9be0,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:34:59 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:34:59 localhost.localdomain NetworkManager[514]: <info>  [1542731699.2040] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:35:08 localhost.localdomain NetworkManager[514]: [0;1;39m<warn>  [1542731708.9945] device (wlo1): re-acquiring supplicant interface (#5).[0m
+nov. 20 17:35:09 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:35:09 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:35:09 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:35:09 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:35:09 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:35:09 localhost.localdomain NetworkManager[514]: [0;1;31m<error> [1542731709.2036] sup-iface[0x55d7281e9b40,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:35:09 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:35:09 localhost.localdomain NetworkManager[514]: <info>  [1542731709.2037] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:35:09 localhost.localdomain NetworkManager[514]: <info>  [1542731709.2037] device (wlo1): supplicant interface keeps failing, giving up
+nov. 20 17:35:59 localhost.localdomain systemd-timesyncd[455]: Timed out waiting for reply from 196.200.131.160:123 (2.debian.pool.ntp.org).
+nov. 20 17:39:01 localhost.localdomain CRON[22745]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 20 17:39:01 localhost.localdomain CRON[22746]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+nov. 20 17:39:01 localhost.localdomain CRON[22745]: pam_unix(cron:session): session closed for user root
+nov. 20 17:39:24 localhost.localdomain kernel: [0;1;39matkbd serio0: Unknown key pressed (translated set 2, code 0xf8 on isa0060/serio0).[0m
+nov. 20 17:39:24 localhost.localdomain kernel: [0;1;39matkbd serio0: Use 'setkeycodes e078 <keycode>' to make it known.[0m
+nov. 20 17:39:24 localhost.localdomain systemd[1]: Starting Load/Save RF Kill Switch Status...
+-- Subject: L'unité (unit) systemd-rfkill.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) systemd-rfkill.service a commencé à démarrer.
+nov. 20 17:39:24 localhost.localdomain NetworkManager[514]: <info>  [1542731964.2875] manager: WiFi now disabled by radio killswitch
+nov. 20 17:39:24 localhost.localdomain systemd[1]: Started Load/Save RF Kill Switch Status.
+-- Subject: L'unité (unit) systemd-rfkill.service a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) systemd-rfkill.service a terminé son démarrage, avec le résultat done.
+nov. 20 17:39:24 localhost.localdomain kernel: [0;1;39matkbd serio0: Unknown key released (translated set 2, code 0xf8 on isa0060/serio0).[0m
+nov. 20 17:39:24 localhost.localdomain kernel: [0;1;39matkbd serio0: Use 'setkeycodes e078 <keycode>' to make it known.[0m
+nov. 20 17:39:27 localhost.localdomain kernel: [0;1;39matkbd serio0: Unknown key pressed (translated set 2, code 0xf8 on isa0060/serio0).[0m
+nov. 20 17:39:27 localhost.localdomain kernel: [0;1;39matkbd serio0: Use 'setkeycodes e078 <keycode>' to make it known.[0m
+nov. 20 17:39:27 localhost.localdomain NetworkManager[514]: <info>  [1542731967.9099] manager: WiFi now enabled by radio killswitch
+nov. 20 17:39:28 localhost.localdomain NetworkManager[514]: [0;1;39m<warn>  [1542731968.0230] device (wlo1): device not up after timeout![0m
+nov. 20 17:39:28 localhost.localdomain kernel: [0;1;39matkbd serio0: Unknown key released (translated set 2, code 0xf8 on isa0060/serio0).[0m
+nov. 20 17:39:28 localhost.localdomain kernel: [0;1;39matkbd serio0: Use 'setkeycodes e078 <keycode>' to make it known.[0m
+nov. 20 17:39:36 localhost.localdomain kernel: [0;1;31mCPU2: Core temperature above threshold, cpu clock throttled (total events = 119636)[0m
+nov. 20 17:39:36 localhost.localdomain kernel: [0;1;31mCPU3: Core temperature above threshold, cpu clock throttled (total events = 119636)[0m
+nov. 20 17:39:36 localhost.localdomain kernel: [0;1;31mCPU0: Package temperature above threshold, cpu clock throttled (total events = 1908976)[0m
+nov. 20 17:39:36 localhost.localdomain kernel: [0;1;31mCPU1: Package temperature above threshold, cpu clock throttled (total events = 1908907)[0m
+nov. 20 17:39:36 localhost.localdomain kernel: [0;1;31mCPU3: Package temperature above threshold, cpu clock throttled (total events = 1909080)[0m
+nov. 20 17:39:36 localhost.localdomain kernel: [0;1;31mCPU2: Package temperature above threshold, cpu clock throttled (total events = 1909080)[0m
+nov. 20 17:39:36 localhost.localdomain kernel: CPU3: Core temperature/speed normal
+nov. 20 17:39:36 localhost.localdomain kernel: CPU2: Core temperature/speed normal
+nov. 20 17:39:36 localhost.localdomain kernel: CPU1: Package temperature/speed normal
+nov. 20 17:39:36 localhost.localdomain kernel: CPU0: Package temperature/speed normal
+nov. 20 17:39:36 localhost.localdomain kernel: CPU2: Package temperature/speed normal
+nov. 20 17:39:36 localhost.localdomain kernel: CPU3: Package temperature/speed normal
+nov. 20 17:40:50 localhost.localdomain su[23892]: Successful su for root by lan
+nov. 20 17:40:50 localhost.localdomain su[23892]: + /dev/pts/0 lan:root
+nov. 20 17:40:50 localhost.localdomain su[23892]: pam_unix(su:session): session opened for user root by (uid=1000)
+nov. 20 17:40:50 localhost.localdomain su[23892]: pam_systemd(su:session): Cannot create session: Already occupied by a session
+nov. 20 17:40:59 localhost.localdomain systemd[1]: Starting Raise network interfaces...
+-- Subject: L'unité (unit) networking.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) networking.service a commencé à démarrer.
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: Internet Systems Consortium DHCP Client 4.3.5
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: Internet Systems Consortium DHCP Client 4.3.5
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: Copyright 2004-2016 Internet Systems Consortium.
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: All rights reserved.
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: For info, please visit https://www.isc.org/software/dhcp/
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: Copyright 2004-2016 Internet Systems Consortium.
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: All rights reserved.
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: For info, please visit https://www.isc.org/software/dhcp/
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: 
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: Cannot find device "eth0"
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: [0;1;31mFailed to get interface index: No such device[0m
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: 
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: Failed to get interface index: No such device
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: If you think you have received this message due to a bug rather
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: than a configuration issue please read the section on submitting
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: bugs on either our web page at www.isc.org or in the README file
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: before submitting a bug.  These pages explain the proper
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: process and the information we find helpful for debugging..
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: exiting.
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: [0;1;31mIf you think you have received this message due to a bug rather[0m
+nov. 20 17:40:59 localhost.localdomain ifup[24002]: ifup: failed to bring up eth0
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: [0;1;31mthan a configuration issue please read the section on submitting[0m
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: [0;1;31mbugs on either our web page at www.isc.org or in the README file[0m
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: [0;1;31mbefore submitting a bug.  These pages explain the proper[0m
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: [0;1;31mprocess and the information we find helpful for debugging..[0m
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: 
+nov. 20 17:40:59 localhost.localdomain dhclient[24030]: [0;1;31mexiting.[0m
+nov. 20 17:41:00 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Main process exited, code=exited, status=1/FAILURE[0m
+nov. 20 17:41:00 localhost.localdomain systemd[1]: [0;1;31mFailed to start Raise network interfaces.[0m
+-- Subject: L'unité (unit) networking.service a échoué
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) networking.service a échoué, avec le résultat failed.
+nov. 20 17:41:00 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Unit entered failed state.[0m
+nov. 20 17:41:00 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Failed with result 'exit-code'.[0m
+nov. 20 17:41:07 localhost.localdomain NetworkManager[514]: <info>  [1542732067.4045] audit: op="radio-control" arg="wireless-enabled:1" pid=4257 uid=1000 result="success"
+nov. 20 17:41:27 localhost.localdomain systemd[1]: Stopped Network Manager Wait Online.
+-- Subject: L'unité (unit) NetworkManager-wait-online.service a terminé son arrêt
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager-wait-online.service a terminé son arrêt.
+nov. 20 17:41:27 localhost.localdomain systemd[1]: Stopping Network Manager Wait Online...
+-- Subject: L'unité (unit) NetworkManager-wait-online.service a commencé à s'arrêter
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager-wait-online.service a commencé à s'arrêter.
+nov. 20 17:41:27 localhost.localdomain systemd[1]: Stopping Network Manager...
+-- Subject: L'unité (unit) NetworkManager.service a commencé à s'arrêter
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager.service a commencé à s'arrêter.
+nov. 20 17:41:27 localhost.localdomain NetworkManager[514]: <info>  [1542732087.1458] caught SIGTERM, shutting down normally.
+nov. 20 17:41:27 localhost.localdomain NetworkManager[514]: <info>  [1542732087.1758] device (wlo1): state change: unavailable -> unmanaged (reason 'unmanaged') [20 10 3]
+nov. 20 17:41:27 localhost.localdomain NetworkManager[514]: <info>  [1542732087.1761] device (wlo1): set-hw-addr: reset MAC address to 20:10:7A:40:6A:37 (unmanage)
+nov. 20 17:41:27 localhost.localdomain NetworkManager[514]: <info>  [1542732087.1778] device (enp37s0): released from master device br0
+nov. 20 17:41:27 localhost.localdomain NetworkManager[514]: <info>  [1542732087.3316] device (virbr0-nic): released from master device virbr0
+nov. 20 17:41:27 localhost.localdomain NetworkManager[514]: <info>  [1542732087.3459] device (virbr0): bridge port gns3tap0-3 was detached
+nov. 20 17:41:27 localhost.localdomain NetworkManager[514]: <info>  [1542732087.4529] exiting (success)
+nov. 20 17:41:28 localhost.localdomain systemd[1]: Stopped Network Manager.
+-- Subject: L'unité (unit) NetworkManager.service a terminé son arrêt
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager.service a terminé son arrêt.
+nov. 20 17:41:28 localhost.localdomain systemd[1]: Starting Network Manager...
+-- Subject: L'unité (unit) NetworkManager.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager.service a commencé à démarrer.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.1679] NetworkManager (version 1.6.2) is starting...
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.1680] Read config: /etc/NetworkManager/NetworkManager.conf
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.3626] manager[0x55d4bf15d040]: monitoring kernel firmware directory '/lib/firmware'.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.3627] monitoring ifupdown state file '/run/network/ifstate'.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.3654] dns-mgr[0x55d4bf142180]: init: dns=default, rc-manager=resolvconf
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.3941] rfkill1: found WiFi radio killswitch (at /sys/devices/pci0000:00/0000:00:1c.3/0000:24:00.0/ieee80211/phy0/rfkill1) (driver rtl8192ce)
+nov. 20 17:41:29 localhost.localdomain dbus[480]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'[0m
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.3943] rfkill0: found WiFi radio killswitch (at /sys/devices/platform/hp-wmi/rfkill/rfkill0) (platform driver hp-wmi)
+nov. 20 17:41:29 localhost.localdomain dbus[480]: [0;1;39m[system] Successfully activated service 'org.freedesktop.nm_dispatcher'[0m
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.3973] manager[0x55d4bf15d040]: WiFi hardware radio set enabled
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.3973] manager[0x55d4bf15d040]: WWAN hardware radio set enabled
+nov. 20 17:41:29 localhost.localdomain systemd[1]: Started Network Manager.
+-- Subject: L'unité (unit) NetworkManager.service a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager.service a terminé son démarrage, avec le résultat done.
+nov. 20 17:41:29 localhost.localdomain systemd[1]: Starting Network Manager Wait Online...
+-- Subject: L'unité (unit) NetworkManager-wait-online.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager-wait-online.service a commencé à démarrer.
+nov. 20 17:41:29 localhost.localdomain systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager-dispatcher.service a commencé à démarrer.
+nov. 20 17:41:29 localhost.localdomain systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager-dispatcher.service a terminé son démarrage, avec le résultat done.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5895] init!
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5897]       interface-parser: parsing file /etc/network/interfaces
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5897]       interface-parser: source line includes interfaces file(s) /etc/network/interfaces.d/*
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5898]       interface-parser: parsing file /etc/network/interfaces.d/br0
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5898]       interface-parser: finished parsing file /etc/network/interfaces.d/br0
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5899]       interface-parser: parsing file /etc/network/interfaces.d/setup
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5899]       interface-parser: finished parsing file /etc/network/interfaces.d/setup
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5899]       interface-parser: finished parsing file /etc/network/interfaces
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5899] found bridge ports enp37s0 for br0
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5900] adding bridge port enp37s0 to eni_ifaces
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5904] guessed connection type (eth0) = 802-3-ethernet
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5905] update_connection_setting_from_if_block: name:eth0, type:802-3-ethernet, id:Ifupdown (eth0), uuid: 681b428f-beaf-8932-dce4-687ed5bae28e
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5907] adding eth0 to connections
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5908] adding iface eth0 to eni_ifaces
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5908] autoconnect
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5908] management mode: unmanaged
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5923] devices added (path: /sys/devices/pci0000:00/0000:00:1c.3/0000:24:00.0/net/wlo1, iface: wlo1)
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5923] device added (path: /sys/devices/pci0000:00/0000:00:1c.3/0000:24:00.0/net/wlo1, iface: wlo1): no ifupdown configuration found.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5923] devices added (path: /sys/devices/pci0000:00/0000:00:1c.5/0000:25:00.0/net/enp37s0, iface: enp37s0)
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5923] devices added (path: /sys/devices/virtual/net/br0, iface: br0)
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5924] device added (path: /sys/devices/virtual/net/br0, iface: br0): no ifupdown configuration found.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5924] devices added (path: /sys/devices/virtual/net/docker0, iface: docker0)
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5924] device added (path: /sys/devices/virtual/net/docker0, iface: docker0): no ifupdown configuration found.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5924] devices added (path: /sys/devices/virtual/net/gns3tap0-3, iface: gns3tap0-3)
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5925] device added (path: /sys/devices/virtual/net/gns3tap0-3, iface: gns3tap0-3): no ifupdown configuration found.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5925] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5925] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5925] devices added (path: /sys/devices/virtual/net/virbr0, iface: virbr0)
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5925] device added (path: /sys/devices/virtual/net/virbr0, iface: virbr0): no ifupdown configuration found.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5926] devices added (path: /sys/devices/virtual/net/virbr0-nic, iface: virbr0-nic)
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5926] device added (path: /sys/devices/virtual/net/virbr0-nic, iface: virbr0-nic): no ifupdown configuration found.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5926] end _init.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5926] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5927] settings: loaded plugin keyfile: (c) 2007 - 2016 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5928] (-1088903296) ... get_connections.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.5928] (-1088903296) ... get_connections (managed=false): return empty list.
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.7347] keyfile: new connection /etc/NetworkManager/system-connections/Auto TNCAP30D074 (4d0c10c4-32b6-440a-8498-6f858ef8a224,"Auto TNCAP30D074")
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.8000] keyfile: new connection /etc/NetworkManager/system-connections/Auto CARAMEL2 (fc5048ab-9343-4968-8ba6-ddf848081a8a,"Auto CARAMEL2")
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.8640] keyfile: new connection /etc/NetworkManager/system-connections/Auto GVT-F292 (8d8dde8c-0477-461c-a478-dae2ba55cf30,"Auto GVT-F292")
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.9378] keyfile: new connection /etc/NetworkManager/system-connections/Auto ZTE-ca008a (d21e9ae3-c6cf-4f11-a6fe-3b3a5820a156,"Auto ZTE-ca008a")
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.9703] keyfile: new connection /etc/NetworkManager/system-connections/Auto KENZO (dfd609c6-f1a0-4b7d-9f90-ee28aad09252,"Auto KENZO")
+nov. 20 17:41:29 localhost.localdomain NetworkManager[24407]: <info>  [1542732089.9962] keyfile: new connection /etc/NetworkManager/system-connections/TP-LINK_56AFD4 (d0753d5d-d71f-4f5b-94a0-dc7eab3650d7,"TP-LINK_56AFD4")
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.0167] get unmanaged devices count: 1
+nov. 20 17:41:30 localhost.localdomain dbus[480]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'[0m
+nov. 20 17:41:30 localhost.localdomain systemd[1]: Starting Hostname Service...
+-- Subject: L'unité (unit) systemd-hostnamed.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) systemd-hostnamed.service a commencé à démarrer.
+nov. 20 17:41:30 localhost.localdomain dbus[480]: [0;1;39m[system] Successfully activated service 'org.freedesktop.hostname1'[0m
+nov. 20 17:41:30 localhost.localdomain systemd[1]: Started Hostname Service.
+-- Subject: L'unité (unit) systemd-hostnamed.service a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) systemd-hostnamed.service a terminé son démarrage, avec le résultat done.
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5900] settings: hostname: using hostnamed
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5901] settings: hostname changed from (none) to "localhost"
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5905] dhcp-init: Using DHCP client 'dhclient'
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5905] manager: WiFi enabled by radio killswitch; enabled by state file
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5906] manager: WWAN enabled by radio killswitch; enabled by state file
+nov. 20 17:41:30 localhost.localdomain nm-dispatcher[24441]: req:1 'hostname': new request (1 scripts)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5906] manager: Networking is enabled by state file
+nov. 20 17:41:30 localhost.localdomain nm-dispatcher[24441]: req:1 'hostname': start running ordered scripts...
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5907] Loaded device plugin: NMBondDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5907] Loaded device plugin: NMBridgeDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5907] Loaded device plugin: NMEthernetDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5908] Loaded device plugin: NMInfinibandDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5908] Loaded device plugin: NMIPTunnelDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5909] Loaded device plugin: NMMacsecDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5909] Loaded device plugin: NMMacvlanDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5909] Loaded device plugin: NMTunDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5909] Loaded device plugin: NMVethDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5910] Loaded device plugin: NMVlanDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.5910] Loaded device plugin: NMVxlanDeviceFactory (internal)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.6058] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-team.so)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.6757] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.6762] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.6881] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.6892] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.6906] device (lo): link connected
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.6956] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.6977] (wlo1): using nl80211 for WiFi device control
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.6981] device (wlo1): driver supports Access Point (AP) mode
+nov. 20 17:41:30 localhost.localdomain kernel: IPv6: ADDRCONF(NETDEV_UP): wlo1: link is not ready
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.7000] manager: (wlo1): new 802.11 WiFi device (/org/freedesktop/NetworkManager/Devices/2)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.7026] device (wlo1): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: [0;1;39m<warn>  [1542732090.8152] device (wlo1): device not up after timeout![0m
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8156] device (wlo1): set-hw-addr: set MAC address to 1A:97:BD:F1:A1:2B (scanning)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8199] manager: (br0): new Bridge device (/org/freedesktop/NetworkManager/Devices/3)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8214] device (virbr0): link connected
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8234] manager: (virbr0): new Bridge device (/org/freedesktop/NetworkManager/Devices/4)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8277] keyfile: add connection in-memory (fcc6510a-fc99-4db6-a2c1-05e8323d9848,"virbr0")
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8286] device (virbr0): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8291] device (virbr0): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8312] device (virbr0): Activation: starting connection 'virbr0' (fcc6510a-fc99-4db6-a2c1-05e8323d9848)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8332] manager: (virbr0-nic): new Tun device (/org/freedesktop/NetworkManager/Devices/5)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8354] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/6)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8388] keyfile: add connection in-memory (fd4ff9a8-7cab-4463-9d27-ce1fd7636015,"docker0")
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8397] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8402] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8421] device (docker0): Activation: starting connection 'docker0' (fd4ff9a8-7cab-4463-9d27-ce1fd7636015)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8442] manager: (gns3tap0-3): new Tun device (/org/freedesktop/NetworkManager/Devices/7)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8472] keyfile: add connection in-memory (fef8aefc-6e6b-42b2-9b8a-92668afab887,"gns3tap0-3")
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8487] device (gns3tap0-3): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8499] device (gns3tap0-3): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8536] device (gns3tap0-3): Activation: starting connection 'gns3tap0-3' (fef8aefc-6e6b-42b2-9b8a-92668afab887)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8566] manager: (enp37s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/8)
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.8846] manager: NetworkManager state is now CONNECTED_GLOBAL
+nov. 20 17:41:30 localhost.localdomain nm-dispatcher[24441]: req:2 'connectivity-change': new request (1 scripts)
+nov. 20 17:41:30 localhost.localdomain nm-dispatcher[24441]: req:2 'connectivity-change': start running ordered scripts...
+nov. 20 17:41:30 localhost.localdomain NetworkManager[24407]: <info>  [1542732090.9902] ModemManager available in the bus
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0410] device (virbr0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0418] device (docker0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0423] device (gns3tap0-3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0448] device (virbr0): state change: prepare -> config (reason 'none') [40 50 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0452] device (docker0): state change: prepare -> config (reason 'none') [40 50 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0455] device (gns3tap0-3): state change: prepare -> config (reason 'none') [40 50 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0473] device (virbr0): state change: config -> ip-config (reason 'none') [50 70 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0491] device (docker0): state change: config -> ip-config (reason 'none') [50 70 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0503] device (gns3tap0-3): state change: config -> ip-config (reason 'none') [50 70 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0510] device (virbr0): bridge port gns3tap0-3 was attached
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.0511] device (gns3tap0-3): Activation: connection 'gns3tap0-3' enslaved, continuing activation
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.1271] device (virbr0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.1315] device (docker0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.1331] device (gns3tap0-3): state change: ip-config -> secondaries (reason 'none') [70 90 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.1385] supplicant: wpa_supplicant running
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.1386] device (wlo1): supplicant interface state: init -> starting
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.1402] device (gns3tap0-3): state change: secondaries -> activated (reason 'none') [90 100 0]
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.4894] device (gns3tap0-3): Activation: successful, device activated.
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.5239] device (virbr0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+nov. 20 17:41:31 localhost.localdomain nm-dispatcher[24441]: req:3 'up' [gns3tap0-3]: new request (1 scripts)
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.5245] device (docker0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+nov. 20 17:41:31 localhost.localdomain nm-dispatcher[24441]: req:3 'up' [gns3tap0-3]: start running ordered scripts...
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.5285] device (virbr0): state change: secondaries -> activated (reason 'none') [90 100 0]
+nov. 20 17:41:31 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:41:31 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:41:31 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:41:31 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:41:31 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:41:31 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:41:31 localhost.localdomain systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: L'unité (unit) ssh.service a commencé à recharger sa configuration
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) ssh.service a commencé à recharger sa configuration.
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.8343] device (virbr0): Activation: successful, device activated.
+nov. 20 17:41:31 localhost.localdomain nm-dispatcher[24441]: req:4 'up' [virbr0]: new request (1 scripts)
+nov. 20 17:41:31 localhost.localdomain NetworkManager[24407]: <info>  [1542732091.8376] device (docker0): state change: secondaries -> activated (reason 'none') [90 100 0]
+nov. 20 17:41:31 localhost.localdomain nm-dispatcher[24441]: req:4 'up' [virbr0]: start running ordered scripts...
+nov. 20 17:41:32 localhost.localdomain NetworkManager[24407]: <info>  [1542732092.0648] device (docker0): Activation: successful, device activated.
+nov. 20 17:41:32 localhost.localdomain nm-dispatcher[24441]: req:5 'up' [docker0]: new request (1 scripts)
+nov. 20 17:41:32 localhost.localdomain NetworkManager[24407]: [0;1;31m<error> [1542732092.1328] sup-iface[0x55d4bf1fde80,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:41:32 localhost.localdomain nm-dispatcher[24441]: req:5 'up' [docker0]: start running ordered scripts...
+nov. 20 17:41:32 localhost.localdomain NetworkManager[24407]: <info>  [1542732092.1329] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:41:32 localhost.localdomain NetworkManager[24407]: <info>  [1542732092.1577] manager: startup complete
+nov. 20 17:41:32 localhost.localdomain systemd[1]: Started Network Manager Wait Online.
+-- Subject: L'unité (unit) NetworkManager-wait-online.service a terminé son démarrage
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) NetworkManager-wait-online.service a terminé son démarrage, avec le résultat done.
+nov. 20 17:41:32 localhost.localdomain sshd[2776]: Received SIGHUP; restarting.
+nov. 20 17:41:32 localhost.localdomain sshd[2776]: Server listening on 0.0.0.0 port 22.
+nov. 20 17:41:32 localhost.localdomain sshd[2776]: Server listening on :: port 22.
+nov. 20 17:41:33 localhost.localdomain systemd[1]: Starting Raise network interfaces...
+-- Subject: L'unité (unit) networking.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) networking.service a commencé à démarrer.
+nov. 20 17:41:33 localhost.localdomain dhclient[24609]: Internet Systems Consortium DHCP Client 4.3.5
+nov. 20 17:41:33 localhost.localdomain ifup[24580]: Internet Systems Consortium DHCP Client 4.3.5
+nov. 20 17:41:33 localhost.localdomain ifup[24580]: Copyright 2004-2016 Internet Systems Consortium.
+nov. 20 17:41:33 localhost.localdomain ifup[24580]: All rights reserved.
+nov. 20 17:41:33 localhost.localdomain ifup[24580]: For info, please visit https://www.isc.org/software/dhcp/
+nov. 20 17:41:33 localhost.localdomain dhclient[24609]: Copyright 2004-2016 Internet Systems Consortium.
+nov. 20 17:41:33 localhost.localdomain dhclient[24609]: All rights reserved.
+nov. 20 17:41:33 localhost.localdomain dhclient[24609]: For info, please visit https://www.isc.org/software/dhcp/
+nov. 20 17:41:33 localhost.localdomain dhclient[24609]: 
+nov. 20 17:41:34 localhost.localdomain ifup[24580]: Cannot find device "eth0"
+nov. 20 17:41:34 localhost.localdomain dhclient[24609]: [0;1;31mFailed to get interface index: No such device[0m
+nov. 20 17:41:34 localhost.localdomain dhclient[24609]: 
+nov. 20 17:41:34 localhost.localdomain ifup[24580]: Failed to get interface index: No such device
+nov. 20 17:41:34 localhost.localdomain ifup[24580]: If you think you have received this message due to a bug rather
+nov. 20 17:41:34 localhost.localdomain ifup[24580]: than a configuration issue please read the section on submitting
+nov. 20 17:41:34 localhost.localdomain ifup[24580]: bugs on either our web page at www.isc.org or in the README file
+nov. 20 17:41:34 localhost.localdomain ifup[24580]: before submitting a bug.  These pages explain the proper
+nov. 20 17:41:34 localhost.localdomain ifup[24580]: process and the information we find helpful for debugging..
+nov. 20 17:41:34 localhost.localdomain ifup[24580]: exiting.
+nov. 20 17:41:34 localhost.localdomain dhclient[24609]: [0;1;31mIf you think you have received this message due to a bug rather[0m
+nov. 20 17:41:34 localhost.localdomain dhclient[24609]: [0;1;31mthan a configuration issue please read the section on submitting[0m
+nov. 20 17:41:34 localhost.localdomain dhclient[24609]: [0;1;31mbugs on either our web page at www.isc.org or in the README file[0m
+nov. 20 17:41:34 localhost.localdomain dhclient[24609]: [0;1;31mbefore submitting a bug.  These pages explain the proper[0m
+nov. 20 17:41:34 localhost.localdomain dhclient[24609]: [0;1;31mprocess and the information we find helpful for debugging..[0m
+nov. 20 17:41:34 localhost.localdomain dhclient[24609]: 
+nov. 20 17:41:34 localhost.localdomain dhclient[24609]: [0;1;31mexiting.[0m
+nov. 20 17:41:34 localhost.localdomain ifup[24580]: ifup: failed to bring up eth0
+nov. 20 17:41:34 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Main process exited, code=exited, status=1/FAILURE[0m
+nov. 20 17:41:34 localhost.localdomain systemd[1]: [0;1;31mFailed to start Raise network interfaces.[0m
+-- Subject: L'unité (unit) networking.service a échoué
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) networking.service a échoué, avec le résultat failed.
+nov. 20 17:41:34 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Unit entered failed state.[0m
+nov. 20 17:41:34 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Failed with result 'exit-code'.[0m
+nov. 20 17:41:41 localhost.localdomain NetworkManager[24407]: [0;1;39m<warn>  [1542732101.9941] device (wlo1): re-acquiring supplicant interface (#1).[0m
+nov. 20 17:41:42 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:41:42 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:41:42 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:41:42 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:41:42 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:41:42 localhost.localdomain NetworkManager[24407]: [0;1;31m<error> [1542732102.2074] sup-iface[0x55d4bf203000,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:41:42 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:41:42 localhost.localdomain NetworkManager[24407]: <info>  [1542732102.2074] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:41:42 localhost.localdomain systemd[1]: Starting Raise network interfaces...
+-- Subject: L'unité (unit) networking.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) networking.service a commencé à démarrer.
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: Internet Systems Consortium DHCP Client 4.3.5
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: Internet Systems Consortium DHCP Client 4.3.5
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: Copyright 2004-2016 Internet Systems Consortium.
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: All rights reserved.
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: For info, please visit https://www.isc.org/software/dhcp/
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: Copyright 2004-2016 Internet Systems Consortium.
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: All rights reserved.
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: For info, please visit https://www.isc.org/software/dhcp/
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: 
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: Cannot find device "eth0"
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: [0;1;31mFailed to get interface index: No such device[0m
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: 
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: Failed to get interface index: No such device
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: If you think you have received this message due to a bug rather
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: than a configuration issue please read the section on submitting
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: bugs on either our web page at www.isc.org or in the README file
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: before submitting a bug.  These pages explain the proper
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: process and the information we find helpful for debugging..
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: exiting.
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: [0;1;31mIf you think you have received this message due to a bug rather[0m
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: [0;1;31mthan a configuration issue please read the section on submitting[0m
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: [0;1;31mbugs on either our web page at www.isc.org or in the README file[0m
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: [0;1;31mbefore submitting a bug.  These pages explain the proper[0m
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: [0;1;31mprocess and the information we find helpful for debugging..[0m
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: 
+nov. 20 17:41:42 localhost.localdomain dhclient[24821]: [0;1;31mexiting.[0m
+nov. 20 17:41:42 localhost.localdomain ifup[24793]: ifup: failed to bring up eth0
+nov. 20 17:41:42 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Main process exited, code=exited, status=1/FAILURE[0m
+nov. 20 17:41:42 localhost.localdomain systemd[1]: [0;1;31mFailed to start Raise network interfaces.[0m
+-- Subject: L'unité (unit) networking.service a échoué
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) networking.service a échoué, avec le résultat failed.
+nov. 20 17:41:42 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Unit entered failed state.[0m
+nov. 20 17:41:42 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Failed with result 'exit-code'.[0m
+nov. 20 17:41:51 localhost.localdomain NetworkManager[24407]: [0;1;39m<warn>  [1542732111.9941] device (wlo1): re-acquiring supplicant interface (#2).[0m
+nov. 20 17:41:52 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:41:52 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:41:52 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:41:52 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:41:52 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:41:52 localhost.localdomain NetworkManager[24407]: [0;1;31m<error> [1542732112.2025] sup-iface[0x55d4bf203000,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:41:52 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:41:52 localhost.localdomain NetworkManager[24407]: <info>  [1542732112.2026] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:42:01 localhost.localdomain NetworkManager[24407]: [0;1;39m<warn>  [1542732121.9882] device (wlo1): re-acquiring supplicant interface (#3).[0m
+nov. 20 17:42:02 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:42:02 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:42:02 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:42:02 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:42:02 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:42:02 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:42:02 localhost.localdomain NetworkManager[24407]: [0;1;31m<error> [1542732122.1958] sup-iface[0x55d4bf1fde80,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:42:02 localhost.localdomain NetworkManager[24407]: <info>  [1542732122.1959] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:42:11 localhost.localdomain NetworkManager[24407]: [0;1;39m<warn>  [1542732131.9941] device (wlo1): re-acquiring supplicant interface (#4).[0m
+nov. 20 17:42:12 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:42:12 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:42:12 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:42:12 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:42:12 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:42:12 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:42:12 localhost.localdomain NetworkManager[24407]: [0;1;31m<error> [1542732132.2029] sup-iface[0x55d4bf2030a0,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:42:12 localhost.localdomain NetworkManager[24407]: <info>  [1542732132.2030] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:42:21 localhost.localdomain NetworkManager[24407]: [0;1;39m<warn>  [1542732141.9941] device (wlo1): re-acquiring supplicant interface (#5).[0m
+nov. 20 17:42:22 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:42:22 localhost.localdomain wpa_supplicant[775]: [0;1;31mnl80211: Could not set interface 'wlo1' UP[0m
+nov. 20 17:42:22 localhost.localdomain wpa_supplicant[775]: [0;1;39mnl80211: deinit ifname=wlo1 disabled_11b_rates=0[0m
+nov. 20 17:42:22 localhost.localdomain wpa_supplicant[775]: [0;1;31mCould not set interface wlo1 flags (UP): Resource temporarily unavailable[0m
+nov. 20 17:42:22 localhost.localdomain wpa_supplicant[775]: [0;1;31mWEXT: Could not set interface 'wlo1' UP[0m
+nov. 20 17:42:22 localhost.localdomain NetworkManager[24407]: [0;1;31m<error> [1542732142.2007] sup-iface[0x55d4bf2030a0,wlo1]: error adding interface: wpa_supplicant couldn't grab this interface.[0m
+nov. 20 17:42:22 localhost.localdomain wpa_supplicant[775]: [0;1;31mwlo1: Failed to initialize driver interface[0m
+nov. 20 17:42:22 localhost.localdomain NetworkManager[24407]: <info>  [1542732142.2007] device (wlo1): supplicant interface state: starting -> down
+nov. 20 17:42:22 localhost.localdomain NetworkManager[24407]: <info>  [1542732142.2008] device (wlo1): supplicant interface keeps failing, giving up
+nov. 20 17:42:24 localhost.localdomain systemd[1]: Starting Raise network interfaces...
+-- Subject: L'unité (unit) networking.service a commencé à démarrer
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) networking.service a commencé à démarrer.
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: Internet Systems Consortium DHCP Client 4.3.5
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: Copyright 2004-2016 Internet Systems Consortium.
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: Internet Systems Consortium DHCP Client 4.3.5
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: Copyright 2004-2016 Internet Systems Consortium.
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: All rights reserved.
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: For info, please visit https://www.isc.org/software/dhcp/
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: All rights reserved.
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: For info, please visit https://www.isc.org/software/dhcp/
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: 
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: Cannot find device "eth0"
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: [0;1;31mFailed to get interface index: No such device[0m
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: 
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: Failed to get interface index: No such device
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: If you think you have received this message due to a bug rather
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: than a configuration issue please read the section on submitting
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: bugs on either our web page at www.isc.org or in the README file
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: before submitting a bug.  These pages explain the proper
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: process and the information we find helpful for debugging..
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: exiting.
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: [0;1;31mIf you think you have received this message due to a bug rather[0m
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: [0;1;31mthan a configuration issue please read the section on submitting[0m
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: [0;1;31mbugs on either our web page at www.isc.org or in the README file[0m
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: [0;1;31mbefore submitting a bug.  These pages explain the proper[0m
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: [0;1;31mprocess and the information we find helpful for debugging..[0m
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: 
+nov. 20 17:42:24 localhost.localdomain dhclient[25344]: [0;1;31mexiting.[0m
+nov. 20 17:42:24 localhost.localdomain ifup[25313]: ifup: failed to bring up eth0
+nov. 20 17:42:24 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Main process exited, code=exited, status=1/FAILURE[0m
+nov. 20 17:42:24 localhost.localdomain systemd[1]: [0;1;31mFailed to start Raise network interfaces.[0m
+-- Subject: L'unité (unit) networking.service a échoué
+-- Defined-By: systemd
+-- Support: https://www.debian.org/support
+-- 
+-- L'unité (unit) networking.service a échoué, avec le résultat failed.
+nov. 20 17:42:24 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Unit entered failed state.[0m
+nov. 20 17:42:24 localhost.localdomain systemd[1]: [0;1;39mnetworking.service: Failed with result 'exit-code'.[0m
