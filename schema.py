@@ -14,7 +14,6 @@ class routing(Document):
          }
 
 class fact(Document):
-        h=""
         ssh = mongoengine.DictField()
         fqdn = mongoengine.StringField()
         hostname = mongoengine.StringField(primary_key=True)
@@ -27,9 +26,7 @@ class fact(Document):
         vendor=mongoengine.StringField()
         vlans=mongoengine.ListField(StringField(max_length=50))
         Date =mongoengine.DateTimeField(default=datetime.datetime.now)
-        meta = {
-         'collection': h# collection name
-         }
+
 
 class ram_mem(Document):
         #Hostname=mongoengine.StringField(primary_key=True)
@@ -67,24 +64,27 @@ def add_one_route(dict,name) :
         mongoengine.connection.disconnect()
         s=connect("routes")
         post = routing(type=dict["type"],interface_name =dict["interface"] , network=dict["network"], netmask=int(dict["mask"]))
-        post._meta['collection'] =dict["host"]
+        post._meta['collection'] =name
+        post.switch_collection(name)
         post.save()
         s.close()
         return 1
 
-def add_many_route(dict) :
+def add_many_route(dict,name) :
         route=0
         mongoengine.connection.disconnect()
         s=connect("routes")
         for j in range(len(dict)):
             try :
                post =routing(type=dict[j]["type"],interface_name=dict[j]["interface"],network=dict[j]["network"], netmask=int(dict[j]["mask"]))
-               post._meta['collection'] =dict["host"]
+               post._meta['collection']=name
+               post.switch_collection(name)
                post.save()
                route =route +1
             except :
                continue
         s.close()
+        mongoengine.connection.disconnect()
         return route
 
 def add_ram(dict) :
@@ -94,6 +94,7 @@ def add_ram(dict) :
             try :
                 post =ram_mem(Type=dict[j]["Type"],Total=int(dict[j]["Total"]), Used=int(dict[j]["Used"]),Free=int(dict[j]["Free"]))
                 post._meta['collection'] = dict[0]['host']
+                post.switch_collection(dict[0]['host'])
                 post.save()
             except Exception as e:
                 print str(e)
@@ -110,6 +111,7 @@ def add_ram1(dict) :
            ct_used=(Used*100)/Somme
            post =ram_mem(Total=Somme, Used=Used,Free=Free,Charge=ct_used,Free_ram=ct_FREE)
            post._meta['collection'] = dict[0]['host']
+           post.switch_collection(dict[0]['host'])
            post.save()
            return  "done"
         except Exception as e:
@@ -130,7 +132,7 @@ def add_free(free_ram) :
     s.close()
     return 1
 
-def add_info(dict) :
+def add_info(dict,router_name) :
     mongoengine.connection.disconnect()
     s=connect("devices_informations")
     post =fact(ssh = dict["cisco_ios_ssh"],
@@ -145,9 +147,9 @@ def add_info(dict) :
     vendor=dict["vendor"],
     vlans=dict["vlans"])
     post._meta['collection']=dict["hostname"]
+    post.switch_collection(dict["hostname"])
     post.save()
     s.close()
-    mongoengine.connection.disconnect()
     return "done"
 
 def stop() :

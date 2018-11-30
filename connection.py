@@ -14,7 +14,7 @@ def facts(name) :
     iosvl2.open()
     ios_output=iosvl2.facts
     iosvl2.close()
-    return  add_info(ios_output)
+    return  add_info(ios_output,name)
 
 def back_up(name) :
     iosvl2=NTC(host=config.get("hostnames",name), username="hamza" , password="hamza" , device_type="cisco_ios_ssh")
@@ -31,7 +31,7 @@ def tab_routes(name) :
     cmds = ['show ip route']
     ios_output=iosvl2.show_list(cmds)
     iosvl2.close()
-    h=hostname(name)
+    # h=hostname(name)
     list = '\n'.join(ios_output[0:])
     list1 = list.split("\n")
     for d in list1[10:] :
@@ -43,7 +43,7 @@ def tab_routes(name) :
                 'network': d[1].split("/")[0],
                 'mask': d[1].split("/")[1],
                 'interface': d[5],
-                'host': h["Hostname"],
+                'host': name,
             }
             table_routage.append(way)
         else :
@@ -119,7 +119,8 @@ def hostname(name) :
     dict ={'Hostname': ios_output["hostname"]}
     return dict
 
-def configuration() :
+def configuration(i) :
+  while(i==0):
     tab=[]
     config.remove_section("hostnames")
     config.add_section("hostnames")
@@ -139,6 +140,4 @@ def configuration() :
 
     for i in tab :
             facts(i)
-
-    for i in tab :
             tab_routes(i)

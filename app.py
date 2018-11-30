@@ -76,7 +76,7 @@ def ram_us(name):
 if __name__ == '__main__' :
     #thread.start_new_thread(app.run(debug=True,host=config.get('server', 'ip'), port=config.get('server','port')))
     #thread.start_new_thread(ram_timer())
-
-    # print configuration()
+    i=-1
+    print configuration((i++))
     #Thread(target =ram_timer() ).start()
     Thread(target =app.run(debug=True,host=config.get('server', 'ip'), port=config.get('server','port'))).start()
