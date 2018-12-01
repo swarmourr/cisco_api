@@ -16,19 +16,17 @@ config.read('adresse.conf')
 
 app=Flask(__name__)
 
-@app.route("/")
-def chart():
-    list = value("Charge")
-    labels = list[1]
+@app.route("/<string:name>/")
+def chart(name):
+    list = value(name)
+    labels = list[2]
+    values1=list[1]
     values = list[0]
     max1= max(values)
-    list1 = value("Free")
-    labels1 = list1[1]
-    values1 = list1[0]
     max2= max(values1)
-    dist={"CHARGE":list,"FREE":list1}
-    #return render_template('test.html', values=values, labels=labels, maximum=max1 , values1=values1, labels1=labels1, maximum1=max2)
-    return jsonify(dist)
+    dist={"CHARGE":list[0],"FREE":list[1]}
+    return render_template('test.html', values=values, labels=labels, maximum=max1 , values1=values1, labels1=labels, maximum1=max2)
+    # return jsonify(dist)
 # link to add infortion to the database
 @app.route("/<string:name>/type")
 def information_add(name):
@@ -77,6 +75,6 @@ if __name__ == '__main__' :
     #thread.start_new_thread(app.run(debug=True,host=config.get('server', 'ip'), port=config.get('server','port')))
     #thread.start_new_thread(ram_timer())
     i=-1
-    print configuration((i++))
-    #Thread(target =ram_timer() ).start()
-    Thread(target =app.run(debug=True,host=config.get('server', 'ip'), port=config.get('server','port'))).start()
+    #print configuration((i++))
+    # Thread(target =ram_timer() ).start()
+    Thread(target =app.run(threaded=True,debug=True,host=config.get('server', 'ip'), port=config.get('server','port'))).start()

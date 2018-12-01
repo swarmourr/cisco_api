@@ -113,10 +113,12 @@ def add_ram1(dict) :
            post._meta['collection'] = dict[0]['host']
            post.switch_collection(dict[0]['host'])
            post.save()
+           s.close()
            return  "done"
         except Exception as e:
                 print str(e)
         s.close()
+
 def add_charge(used) :
     s=connect("Ram")
     post =charge(Used=used)

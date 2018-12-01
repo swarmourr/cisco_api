@@ -24,17 +24,17 @@ def insert_one(list) :
     mng_collection = connect()
     mng_collection.insert_one(list)
 
-def find() :
+def find(name) :
     table_routage=[]
-    mng_collection = connect(((config.get('db_name','name')).split(","))[1],config.get('Routing_collections','name'))
+    mng_collection = connect(((config.get('db_name','name')).split(","))[1],name)
     for x in mng_collection.find({},{ "_id": 0 }):
       print x
       table_routage.append(x)
     return  table_routage
 
-def find_ram() :
+def find_ram(name) :
     ram=[]
-    mng_collection = connect(((config.get('db_name','name')).split(","))[0],((config.get('Ram_collections','name')).split(","))[0])
+    mng_collection = connect(((config.get('db_name','name')).split(","))[0],name)
     for x in mng_collection.find():
       print x
       ram.append(x)
@@ -56,30 +56,45 @@ def ram_calcul():
 
 def value(collection_used) :
     result=[]
+    result1=[]
     valeur=[]
+    valeur1=[]
     dates=[]
     list=[]
     date=[]
     collection = connect("RAM",collection_used)
-    if collection_used == "Charge":
+    """if collection_used == "Charge":
         u="Used"
     elif collection_used == "Free" :
         u="Free"
     else :
-        return False
-    for x in collection.find({},{ "_id": 0 }).sort('_id',pymongo.DESCENDING).limit(30):
+        return False"""
+    for x in collection.find({},{ "_id": 0 ,"Charge" : 1 }).sort('_id',pymongo.DESCENDING).limit(30):
         result.append(x)
-    for x in collection.find({},{ u: 0 }).sort('_id',pymongo.DESCENDING).limit(30):
+    # print " la chaaaaarge  derniere "
+    for x in  collection.find({},{ "_id": 0 ,"Charge" : 1 }).sort('_id',pymongo.DESCENDING).limit(1):
+        print x["Charge"]
+    for x in collection.find({},{ "_id": 0 ,"Free_ram" : 1 }).sort('_id',pymongo.DESCENDING).limit(30):
+        result1.append(x)
+    for x in collection.find({},{ "_id": 1 }).sort('_id',pymongo.DESCENDING).limit(30):
         date.append(x)
     for i in range(len(result)):
       for key,val in result[i].items():
            valeur.append(val)
+
+    for i in range(len(result1)):
+      for key,val in result1[i].items():
+           valeur1.append(val)
+
     for i in range(len(date)):
       for key,val in date[i].items():
            dates.append(val)
     list.append(valeur)
+    list.append(valeur1)
     list.append(dates)
     max1= max(valeur)
+    print " c la liste  : "
+    print list
     return list
 
 def info(name) :

@@ -61,8 +61,8 @@ def tab_routes(name) :
         return "Oop"
     #return "new routes added to the, database"
 
-def routes() :
-    return find()
+def routes(name) :
+    return find(name)
 
 def interface(name_router,name) :
     iosvl2=NTC(host=config.get("hostnames",name_router), username="hamza" , password="hamza" , device_type="cisco_ios_ssh")
@@ -100,13 +100,13 @@ def ram(name) :
     list1=list.split("\n")
     l1=(list1[0].replace("  ", " ")).split(" ")
     l2=(list1[1].replace("  ", " ")).split(" ")
-    h=hostname()
+    h=hostname(name)
     dict =[{'host': h["Hostname"] , 'Type':l1[0], 'Total':l1[3] ,'Used': l1[6] ,'Free':l1[8] },{'host': h,'Type':l2[3], 'Total':l2[7] ,'Used': l2[10] ,'Free':l2[13] }
     ]
     add_ram1(dict)
 
 def ram_tab(name) :
-    return find_ram()
+    return find_ram(name)
 
 def trace() :
      return value()
