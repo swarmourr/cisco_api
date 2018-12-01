@@ -72,8 +72,6 @@ def value(collection_used) :
     for x in collection.find({},{ "_id": 0 ,"Charge" : 1 }).sort('_id',pymongo.DESCENDING).limit(30):
         result.append(x)
     # print " la chaaaaarge  derniere "
-    for x in  collection.find({},{ "_id": 0 ,"Charge" : 1 }).sort('_id',pymongo.DESCENDING).limit(1):
-        print x["Charge"]
     for x in collection.find({},{ "_id": 0 ,"Free_ram" : 1 }).sort('_id',pymongo.DESCENDING).limit(30):
         result1.append(x)
     for x in collection.find({},{ "_id": 1 }).sort('_id',pymongo.DESCENDING).limit(30):
@@ -104,3 +102,8 @@ def info(name) :
       print x
       information.append(x)
     return  information
+
+def ram_super(collection_used) :
+    collection = connect("RAM",collection_used)
+    for x in  collection.find({},{ "_id": 0 ,"Charge" : 1 }).sort('_id',pymongo.DESCENDING).limit(1):
+        return x["Charge"]

@@ -19,9 +19,9 @@ def facts(name) :
 def back_up(name) :
     iosvl2=NTC(host=config.get("hostnames",name), username="hamza" , password="hamza" , device_type="cisco_ios_ssh")
     iosvl2.open()
-    ios_output=iosvl2.backup_running_config('ip.cfg')
+    ios_output=iosvl2.backup_running_config(name +'.cfg')
     iosvl2.close()
-    return "is back_uped "
+    return name + "is back_uped "
 
 def tab_routes(name) :
     substring = "C"
@@ -104,6 +104,7 @@ def ram(name) :
     dict =[{'host': h["Hostname"] , 'Type':l1[0], 'Total':l1[3] ,'Used': l1[6] ,'Free':l1[8] },{'host': h,'Type':l2[3], 'Total':l2[7] ,'Used': l2[10] ,'Free':l2[13] }
     ]
     add_ram1(dict)
+    return h["Hostname"]
 
 def ram_tab(name) :
     return find_ram(name)
