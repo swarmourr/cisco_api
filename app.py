@@ -16,6 +16,10 @@ config.read('adresse.conf')
 
 app=Flask(__name__)
 
+@app.route("/")
+def backuprouter():
+    return  backuping()
+
 @app.route("/<string:name>/")
 def chart(name):
     list = value(name)

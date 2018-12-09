@@ -13,6 +13,16 @@ class routing(Document):
          'collection': h# collection name
          }
 
+class backup(Document):
+        h=""
+        network = mongoengine.StringField(unique=True)
+        interface_name = mongoengine.StringField()
+        interface_name_backup = mongoengine.StringField()
+#        Date =mongoengine.DateTimeField(primary_key=True,default=datetime.datetime.now)
+        meta = {
+         'collection': h# collection name
+         }
+
 class fact(Document):
         ssh = mongoengine.DictField()
         fqdn = mongoengine.StringField()
@@ -156,3 +166,24 @@ def add_info(dict,router_name) :
 
 def stop() :
     mongoengine.connection.disconnect()
+
+# link interface_name_backup
+
+def int_back_up(dict) :
+        mongoengine.connection.disconnect()
+        print " i am here"
+        s=connect("Backup")
+        try :
+           for i in range(len(dict['network'])) :
+               try :
+                  post =backup(network= dict['network'][i],interface_name=dict['interface'][i],interface_name_backup=dict['backup'][i])
+                  post._meta['collection']=dict['hostname']
+                  post.switch_collection(dict['hostname'])
+                  post.save()
+                  print "done"
+               except :
+                  continue
+           return  "done"
+        except Exception as e:
+                print str(e)
+        s.close()

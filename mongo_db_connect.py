@@ -107,3 +107,10 @@ def ram_super(collection_used) :
     collection = connect("RAM",collection_used)
     for x in  collection.find({},{ "_id": 0 ,"Charge" : 1 }).sort('_id',pymongo.DESCENDING).limit(1):
         return x["Charge"]
+
+def  get_int_backup(collection_used) :
+    collection = connect("Backup",collection_used)
+    int = []
+    for x in  collection.find({},{ "_id": 0 ,"network" : 0 , "interface_name_backup" : 0 }) :
+         int.append(x)
+    return int
